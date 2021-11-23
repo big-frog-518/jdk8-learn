@@ -98,6 +98,7 @@ public class DemoApplicationTests {
     @Test
     public void test222() {
         List<Integer> intNum= Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) ;
+        //平均数
         IntSummaryStatistics summaryStatistics=intNum.stream().mapToInt(x->x).summaryStatistics();
         System.out.println(summaryStatistics.getCount()+" "+summaryStatistics.getAverage()+" "+summaryStatistics.getMax());
     }

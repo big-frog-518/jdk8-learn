@@ -1,5 +1,8 @@
 package com.jdk8.demo.completablefuture;
 
+import org.apache.logging.log4j.util.Strings;
+
+import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 
@@ -38,6 +41,12 @@ public class completablefuture {
         System.out.println("time = "+time);
     }
 
-
+    public static void main(String[] args) {
+        ArrayList<Object> strings = new ArrayList<>();
+        strings.add("sadasd");
+        strings.add("asdadv");
+        strings.add("asdkjhda");
+        System.out.println(Strings.join(strings,','));
+    }
 
 }

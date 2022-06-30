@@ -3,6 +3,8 @@ package com.jdk8.demo.entity;
 
 import lombok.Data;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -11,6 +13,7 @@ import java.util.Objects;
  */
 @Data
 public class User {
+
 
     private String userName;
 

@@ -1,5 +1,6 @@
 package com.jdk8.demo.completablefuture;
 
+
 import org.apache.logging.log4j.util.Strings;
 
 import java.util.ArrayList;

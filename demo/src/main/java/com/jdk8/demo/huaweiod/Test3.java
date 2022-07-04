@@ -1,4 +1,4 @@
-package huaweiod;
+package com.jdk8.demo.huaweiod;
 
 /**
  * @Author: ZhengJinxu

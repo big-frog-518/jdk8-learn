@@ -1,4 +1,4 @@
-package huaweiod;
+package com.jdk8.demo.huaweiod;
 
 import java.util.ArrayList;
 import java.util.Collections;

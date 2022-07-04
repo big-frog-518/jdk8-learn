@@ -1,4 +1,4 @@
-package study;
+package com.jdk8.demo.study;
 
 import java.util.Arrays;
 
